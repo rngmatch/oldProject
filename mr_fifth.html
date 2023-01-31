@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+
+    
+   Planning the Fifth Visit to Japan
+   Author: Martin Rodriguez
+   Date:   09-27-2020  
+   
+
+    Filename: mr_fifth.html
+   -->
+   <meta charset="utf-8" />
+   <title>Planning the Fifth Visit to Japan</title>   
+	<meta name="viewport"  content="width=device-width, initial-scale=1" />     
+	<link href="mr_reset.css" rel="stylesheet" />
+	<link href="mr_styles6.css" rel="stylesheet" /> 
+	<link href="mr_visual6.css" rel="stylesheet" /> 
+	<link href="mr_forms.css" rel="stylesheet" />
+    <script src="mr_formsubmit.js"></script>
+
+
+</head>
+
+<body>
+   <header>
+  
+      <img src="mr_temple.png" alt="Temple and Tower" />
+      <nav class="horizontal">
+	  
+		<a id="navicon" href="#"><img src="mr_navicon.png" alt="" /></a>
+		
+         <ul class="mainmenu">
+            <li><a href="mrindex.html">Home</a></li>
+            <li><a href="mr_first.html">The First Visit</a></li>
+            <li><a href="mr_second.html">The Second</a></li>
+            <li><a href="mr_third.html">The Third</a></li>
+			<li><a href="mr_fourth.html">The Fourth</a></li>
+			<li><a href="mr_fifth.html">Planning the Fifth</a></li> 
+			<li><a href="mr_about.html">About Japan</a></li>
+         </ul>
+      </nav>
+   </header>
+   
+      <article>
+      <h1>Planning the Fifth Visit to Japan</h1>
+	  <p>Most of my friends that experienced Japan 
+	  for the first time during our last trip wanted
+	  to return and to see more of the country.
+	  Although I have visited the country multiple times,
+	  I had to agree with them, there was still 
+	  a lot I want to see and experience.  </p>
+	  
+      <figure id="figure1">
+         <img src="mr_fifth_Kiyomizu.png" alt="" />
+         <figcaption>Kiyomizu-dera (Photo from Google)</figcaption>  
+      </figure>
+      
+
+      
+      <p><a href="mrindex.html">Return to the Visiting Japan Home Page</a></p>
+      
+   </article> 
+   
+ <!--*********************-->	 
+   <section>
+      <h1>Sign Up</h1>
+      <p>Thank you  </p>
+      <p>Infomation is private and confidential <em>ever</em>. </p>
+      <p>Required values are marked by an asterisk (*)</p>
+
+	 <form id="survey" action="http://www.example.com/survey" method="post">
+		<fieldset id="friendInfo">
+			<legend>Upcoming Trip to Japan</legend>
+		<div class="formRow">	
+			<label for="name">Name*</label> 
+			<input name="custName" id="name" type="text" placeholder="first and last name" required />  
+		</div>
+		
+		<div class="formRow">
+			<label for="street">Street address</label> 
+			<input name="custStreet" id="street" type="text" />  
+		</div>
+		
+		<div class="formRow">	
+			<label for="city">City</label> 
+			<input name="custCity" id="city" type="text" />  
+		</div>
+		
+		<div class="formRow">	
+			<label for="state">State</label>  
+			<input name="custState" id="state" type="text" />  
+		</div>
+		
+		<div class="formRow">	
+			<label for="zip">Postal code</label> 
+			<input name="custZip" id="zip" type="text" placeholder="nnnnn (-nnnn)"  
+				pattern="^\d{5}(-\d{4})?$" /> 
+		</div>
+		
+		<div class="formRow">	
+			<label for="phone">Phone number</label>  
+			<input name="custPhone" id="phone" type="tel" placeholder="(nnn) nnn-nnnn"  
+				pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" /> 
+		</div>
+		
+		<div class="formRow">	
+			<label for="mail">E-mail*</label>  
+			<input name="custEmail" id="mail" type="email" required /> 
+		</div>
+
+		
+		<div id="buttons">
+			<input type="submit" value="Sign Me Up!" />
+			<input type="reset" value="Cancel" />
+		</div>	
+		
+	 </form>
+
+     
+   </section>
+ 
+  <!--*********************-->
+ 
+  
+ 
+   
+   <footer>Rodriguez &copy; 2020 English (US)</footer>
+   
+</body>
+</html>

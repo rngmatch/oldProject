@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+/*
+   
+   Author: Martin Rodriguez   
+   Date: 10/06/2020      
+   
+   Filename: mr_flex.css
+   
+*/
+
+
+/* ================
+   Base Flex Styles
+   ================
+*/
+
+/*
+header {
+	display: flex;
+	flex-flow: column wrap-reverse;
+}
+
+	header, footer {
+		width: 100%;
+	}  
+	
+	aside {
+		flex: 1 1 120px;  
+	} 
+	
+	section#main {
+		flex: 3 1 361px;  
+	} 
+
+*/
+
+
+
+/* =========================
+   Mobile Styles: 0 to 480px 
+   =========================
+*/
+
+@media only screen and (max-width: 480px) {
+ /* 
+	nav.horizontal ul {
+		display: flex;  
+		flex-flow: row wrap;  
+		}
+		
+	nav.horizontal li {
+		flex: 1 1 auto;  
+		} 
+
+ 
+}
+
+/* ============================================
+   Tablet and Desktop Styles: 481px and greater 
+   ============================================
+*/
+/*
+@media only screen and (min-width: 481px) {
+
+	nav.horizontal ul {
+		display: flex;
+		flex-flow: row nowrap;
+	}
+	
+	nav.horizontal li {
+		flex: 1 1 auto;
+	} 
+
+
+}
+*/
+

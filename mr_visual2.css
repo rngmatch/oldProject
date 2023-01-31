@@ -1,0 +1,143 @@
+@charset "utf-8";
+
+/*
+
+   Visual Effects Style Sheet for The First Visit
+   Author: Martin Rodriguez
+   Date:   09-17-2020  
+    
+   
+   Filename: mr_visual2.css
+
+*/
+
+
+
+
+/* Transformation Styles */
+
+article {
+	perspective: 600px;
+	background: rgb(211, 211, 211);
+}
+
+/* Page Body Styles */
+
+body {
+	border-left: 1px solid rgb(51, 51, 51);
+	border-right: 1px solid rgb(51, 51, 51);
+	box-shadow: rgb(51, 51, 51) 15px 0px 25px,
+				rgb(51, 51, 51) -15px 0px 25px;
+}
+
+
+
+/* Filter Styles */
+
+figure#figure1 {
+	filter: saturate(1.5) contrast(1.2);
+}
+
+
+/* Aside Styles */
+
+
+/* Footer Styles */
+
+footer {  
+	background: linear-gradient(345deg,	rgb(36 93 138),	
+										rgb(21, 35, 21) 80%);
+} 
+
+	a#navicon {
+		display: none;
+	}
+
+
+
+
+/*  ==============================
+	Mobile Styles: 0px to 480px  
+	===============================
+*/  
+@media only screen and (max-width: 480px) {
+	
+	a#navicon {
+		display: block;
+	}
+	
+
+	nav.horizontal ul {
+		display: none;
+	}
+	
+	a#navicon:hover+ul, nav.horizontal ul:hover {
+		display: block;
+	}
+
+	body  {
+		display: block;
+		width: auto;
+	}
+
+	
+
+}
+
+/*  
+	================================
+	Tablet Styles: 481px and greater  
+	================================
+*/  
+@media only screen and (min-width: 481px) {  
+
+	a#navicon {
+		display: block;
+	}
+	
+
+	nav.horizontal ul {
+		display: none;
+	}
+	
+	a#navicon:hover+ul, nav.horizontal ul:hover {
+		display: block;
+	}
+
+
+	body  {
+		display: block;
+	}
+
+	
+
+}  
+
+/*  
+	=================================
+	Desktop Styles: 769px and greater  
+	=================================
+*/  @media only screen and (min-width: 769px) {  
+
+	a#navicon {
+		display: none;
+	}
+
+	nav.horizontal ul {
+		display: block;
+	}
+
+
+	article {
+		margin-right: 5%;
+	}  
+
+	aside {  
+		float: left;  
+		width: 40%;  
+	} 
+	
+} 
+
+
+

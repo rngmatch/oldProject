@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+/*
+
+
+   Tables Style Sheet
+      Author: Martin Rodriguez
+
+
+   Filename:         mr_tables.css
+
+*/
+
+/* Table Styles */
+
+table.schedule  {
+	background: white;
+	border: 10px outset rgb(36 93 138);
+	border-collapse: collapse;
+	font-size: 0.75em;
+	width: 100%;
+}
+
+
+/* Table Cell Styles */
+
+table.schedule th, table.schedule td {
+	border: 1px solid gray;
+	padding: 5px;
+	vertical-align: top;
+}
+
+
+/* Row Group Styles */
+
+table.schedule thead {
+	background: rgb(36 93 138);
+	color: white;
+}
+
+table.schedule tfoot {
+	background: rgb(36 93 138);
+	color: white;
+}
+
+table.schedule thead tr {
+	height: 30px;
+}
+
+table.schedule tbody tr {
+	height: 40px;
+}
+
+/* Column Group Styles */
+
+col#firstCol {
+	color: white;
+	background: rgb(93 164 220); 
+	width: 16%;	
+} 
+
